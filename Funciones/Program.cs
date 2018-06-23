@@ -13,6 +13,7 @@ namespace Funciones
             Console.WriteLine("Para continuar golpea fuerte el teclado");
             Console.ReadKey();
 
+            Console.WriteLine();
             Console.WriteLine("Por favor introduce un numero");
             a = int.Parse(Console.ReadLine());
             Console.WriteLine("Por favor introduce un numero");
