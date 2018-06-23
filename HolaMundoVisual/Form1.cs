@@ -16,5 +16,9 @@ namespace HolaMundoVisual
         {
             InitializeComponent();
         }
+        private void Button1Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola mundo!");
+        }
     }
 }
