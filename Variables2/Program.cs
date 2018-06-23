@@ -10,6 +10,7 @@ namespace Variables
 
             Console.WriteLine("¡Hola, " + nombre + "!"); //Le pedimos que imprima por pantalla "¡Hola, ", le concatenamos lo que esté almacenado en la variable nombre y le concatenamos "!"
             Console.WriteLine("¡Adios, " + nombre + "!"); //Le pedimos que imprima por pantalla "¡Adios, ", le concatenamos lo que esté almacenado en la variable nombre y le concatenamos "!"
+            Console.ReadKey();
         }
     }
 }
