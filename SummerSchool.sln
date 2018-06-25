@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables2\Var
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saludame", "Saludame\Saludame.csproj", "{01AB0027-C89B-442E-AFAC-212094560CCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funciones", "Funciones\Funciones.csproj", "{3C3CC839-8CBB-48CA-9E9C-DA1B4E4DE381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funciones", "Funciones\Funciones.csproj", "{3C3CC839-8CBB-48CA-9E9C-DA1B4E4DE381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormasGemoetricas", "FormasGemoetricas\FormasGemoetricas.csproj", "{F1B4289B-168A-49E5-83D1-8CBF6C846D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaRaul", "MediaRaul\MediaRaul.csproj", "{CA194FC2-2452-4665-91AE-62B7EFAD6BC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{3C3CC839-8CBB-48CA-9E9C-DA1B4E4DE381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C3CC839-8CBB-48CA-9E9C-DA1B4E4DE381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C3CC839-8CBB-48CA-9E9C-DA1B4E4DE381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B4289B-168A-49E5-83D1-8CBF6C846D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B4289B-168A-49E5-83D1-8CBF6C846D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B4289B-168A-49E5-83D1-8CBF6C846D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B4289B-168A-49E5-83D1-8CBF6C846D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA194FC2-2452-4665-91AE-62B7EFAD6BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA194FC2-2452-4665-91AE-62B7EFAD6BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA194FC2-2452-4665-91AE-62B7EFAD6BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA194FC2-2452-4665-91AE-62B7EFAD6BC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
