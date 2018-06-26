@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormasGemoetricas", "Formas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaRaul", "MediaRaul\MediaRaul.csproj", "{CA194FC2-2452-4665-91AE-62B7EFAD6BC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisiesto", "Bisiesto\Bisiesto.csproj", "{A8703EBE-84E8-40BE-A4BA-C09699585D61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bisiesto", "Bisiesto\Bisiesto.csproj", "{A8703EBE-84E8-40BE-A4BA-C09699585D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Division", "Division\Division.csproj", "{63BDD31E-5F65-4BA0-B85C-B3D9485BC770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Division", "Division\Division.csproj", "{63BDD31E-5F65-4BA0-B85C-B3D9485BC770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
