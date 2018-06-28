@@ -145,7 +145,14 @@ namespace Ahorcado
         {
             Console.WriteLine();
             Console.Write("Escribe una letra: ");
-            currentLetter = char.ToLower(Console.ReadKey().KeyChar);
+
+            currentLetter = '\0';
+            while (currentLetter == '\0')
+            {
+                ConsoleKeyInfo key = Console.ReadKey();
+                if (key.Key != ConsoleKey.Enter)
+                    currentLetter = key.KeyChar;
+            }
         }
         static void Main(string[] args)
         {
