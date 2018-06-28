@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemplosArray", "EjemplosAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triángulo", "Triángulo\Triángulo.csproj", "{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahorcado", "Ahorcado\Ahorcado.csproj", "{7CD4BFF1-C955-4466-A9CA-22FAFF8EC6C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD4BFF1-C955-4466-A9CA-22FAFF8EC6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD4BFF1-C955-4466-A9CA-22FAFF8EC6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD4BFF1-C955-4466-A9CA-22FAFF8EC6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD4BFF1-C955-4466-A9CA-22FAFF8EC6C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
