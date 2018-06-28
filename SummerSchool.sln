@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bisiesto", "Bisiesto\Bisies
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Division", "Division\Division.csproj", "{63BDD31E-5F65-4BA0-B85C-B3D9485BC770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemplosArray", "EjemplosArray\EjemplosArray.csproj", "{F3661174-0B74-4BA0-ADA6-F14815A1E002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemplosArray", "EjemplosArray\EjemplosArray.csproj", "{F3661174-0B74-4BA0-ADA6-F14815A1E002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triángulo", "Triángulo\Triángulo.csproj", "{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{F3661174-0B74-4BA0-ADA6-F14815A1E002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3661174-0B74-4BA0-ADA6-F14815A1E002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3661174-0B74-4BA0-ADA6-F14815A1E002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8B709E-2BF7-4DB3-8DE7-4E8AA7E47B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
