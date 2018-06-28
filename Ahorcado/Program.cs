@@ -71,7 +71,7 @@ namespace Ahorcado
             while (word == "" || word.Contains(' '))
             {
                 Console.Write("Escribe una palabra: ");
-                word = Console.ReadLine();
+                word = Console.ReadLine().ToLower();
             }
             correct = new bool[word.Length];
 
@@ -144,7 +144,7 @@ namespace Ahorcado
         {
             Console.WriteLine();
             Console.Write("Escribe una letra: ");
-            currentLetter = Console.ReadKey().KeyChar;
+            currentLetter = char.ToLower(Console.ReadKey().KeyChar);
         }
         static void Main(string[] args)
         {
