@@ -9,16 +9,13 @@ namespace EjemplosArray
             int[] array;
             Console.Write("Introduce un número:");
             int n = 0;
-            while(!int.TryParse(Console.ReadLine(), out n))
+            while(!int.TryParse(Console.ReadLine(), out n) && n < 0)
             {
                 Console.Clear();
                 Console.Write("Introduce un número: ");
             }
             array = FillRandom(n);
-            Console.WriteLine("Tu array ha quedado de la siguiente manera:");
             Console.WriteLine(Join(array));
-            Console.WriteLine("Su suma acumulada es: " + CumSum(array));
-            Console.WriteLine("Su media es: " + Average(array));
             Console.ReadKey();
         }
         static int[] FillRandom(int n)
