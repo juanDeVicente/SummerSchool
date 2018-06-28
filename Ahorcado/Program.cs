@@ -72,6 +72,7 @@ namespace Ahorcado
             {
                 Console.Write("Escribe una palabra: ");
                 word = Console.ReadLine().ToLower();
+                Console.Clear();
             }
             correct = new bool[word.Length];
 
