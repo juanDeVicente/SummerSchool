@@ -8,7 +8,7 @@ namespace Triángulo
         {
             int altura;
             Console.Write("Introduce un número: ");
-            while(!int.TryParse(Console.ReadLine(), out altura) && altura > 1)
+            while(!int.TryParse(Console.ReadLine(), out altura) || altura < 1)
             {
                 Console.Clear();
                 Console.Write("Introduce un número: ");
